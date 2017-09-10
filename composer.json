@@ -24,10 +24,15 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http": false
   },
   "repositories": [
-    {
+{
+      "type": "composer",
+      "url": "http://growlingfish.asuscomm.com/satis"
+    },    
+{
       "type": "composer",
       "url": "https://wpackagist.org"
     }
@@ -38,7 +43,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.8.1",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+	"growlingfish/genesis": "2.5.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

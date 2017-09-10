@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57adf83096ae495eea7573a0c52f8a03",
+    "content-hash": "1d8fa51be06663b0e6395b02cb4e94b1",
     "packages": [
         {
             "name": "composer/installers",
@@ -122,6 +122,25 @@
                 "zikula"
             ],
             "time": "2017-08-09T07:53:48+00:00"
+        },
+        {
+            "name": "growlingfish/genesis",
+            "version": "2.5.2",
+            "source": {
+                "type": "path",
+                "url": "http://growlingfish.asuscomm.com/satis/genesis/",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://growlingfish.asuscomm.com/satis/genesis/genesis.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "johnpbloch/wordpress",
