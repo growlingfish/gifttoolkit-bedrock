@@ -47,7 +47,8 @@
     "growlingfish/genesis": "2.5.2",
     "wpackagist-plugin/genesis-simple-edits": "dev-trunk",
     "wpackagist-plugin/simple-social-icons": "dev-trunk",
-    "wpackagist-plugin/to-top": "dev-trunk"
+    "wpackagist-plugin/to-top": "dev-trunk",
+    "wpackagist-plugin/duplicate-post": "dev-trunk"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

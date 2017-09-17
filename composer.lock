@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ddd697b62d979a3b5db12b11ca28b20",
+    "content-hash": "fe4c54f11ba83923f310967b59533867",
     "packages": [
         {
             "name": "composer/installers",
@@ -417,6 +417,27 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.zip?timestamp=1498266883",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/",
+            "time": "2017-06-24T02:14:43+00:00"
+        },
+        {
             "name": "wpackagist-plugin/genesis-simple-edits",
             "version": "dev-trunk",
             "source": {
@@ -538,7 +559,8 @@
     "stability-flags": {
         "wpackagist-plugin/genesis-simple-edits": 20,
         "wpackagist-plugin/simple-social-icons": 20,
-        "wpackagist-plugin/to-top": 20
+        "wpackagist-plugin/to-top": 20,
+        "wpackagist-plugin/duplicate-post": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
