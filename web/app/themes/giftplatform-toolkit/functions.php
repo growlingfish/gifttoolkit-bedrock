@@ -63,6 +63,8 @@ function monochrome_enqueue_scripts_styles() {
 	wp_enqueue_script( 'jjsonviewer-script', get_stylesheet_directory_uri() . '/js/jjsonviewer.js', array( 'jquery' ) );
 	wp_enqueue_style( 'jjsonviewer-style', get_stylesheet_directory_uri() . '/js/jjsonviewer.css', array() );
 
+	wp_enqueue_style( 'jjsonviewer-style', get_stylesheet_directory_uri() . '/style-gift.css', array() );
+
 }
 
 // Define our responsive menu settings.
