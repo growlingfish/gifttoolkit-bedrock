@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2bf68b636838a7e94c9c24a18cb6263",
+    "content-hash": "2ddd697b62d979a3b5db12b11ca28b20",
     "packages": [
         {
             "name": "composer/installers",
@@ -457,6 +457,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-social-icons/",
             "time": "2017-02-02T16:50:37+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/to-top",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/to-top/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/to-top.zip?timestamp=1496849002",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/to-top/",
+            "time": "2017-06-07T16:23:22+00:00"
         }
     ],
     "packages-dev": [
@@ -516,7 +537,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/genesis-simple-edits": 20,
-        "wpackagist-plugin/simple-social-icons": 20
+        "wpackagist-plugin/simple-social-icons": 20,
+        "wpackagist-plugin/to-top": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
