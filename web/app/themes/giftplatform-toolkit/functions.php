@@ -61,7 +61,7 @@ function monochrome_enqueue_scripts_styles() {
 	wp_localize_script( 'monochrome-responsive-menu', 'genesis_responsive_menu', monochrome_responsive_menu_settings() );
 
 	wp_enqueue_script( 'jjsonviewer-script', get_stylesheet_directory_uri() . '/js/jjsonviewer.js', array( 'jquery' ) );
-	wp_enqueue_style( 'jjsonviewer-style', get_stylesheet_directory_uri() . '/js/jjsonviewer.css', array( 'jjsonviewer-script' ) );
+	wp_enqueue_style( 'jjsonviewer-style', get_stylesheet_directory_uri() . '/js/jjsonviewer.css', array() );
 
 }
 
