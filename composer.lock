@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe4c54f11ba83923f310967b59533867",
+    "content-hash": "e0d9971810beea0a786795c9522dbc1e",
     "packages": [
         {
             "name": "composer/installers",
@@ -499,6 +499,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/to-top/",
             "time": "2017-06-07T16:23:22+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-dbmanager",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-dbmanager/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-dbmanager.zip?timestamp=1490928191",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-dbmanager/",
+            "time": "2017-03-31T03:43:11+00:00"
         }
     ],
     "packages-dev": [
@@ -560,7 +581,8 @@
         "wpackagist-plugin/genesis-simple-edits": 20,
         "wpackagist-plugin/simple-social-icons": 20,
         "wpackagist-plugin/to-top": 20,
-        "wpackagist-plugin/duplicate-post": 20
+        "wpackagist-plugin/duplicate-post": 20,
+        "wpackagist-plugin/wp-dbmanager": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
